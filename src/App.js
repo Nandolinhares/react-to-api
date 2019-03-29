@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component{
-    render(){
-        return(
-            <h1>Hello World</h1>
-        );
-    }
-}
+import './styles.css';
+
+import Header from './components/Header/index';
+
+const App = () => (
+    <Header/>
+);
 
 export default App;
