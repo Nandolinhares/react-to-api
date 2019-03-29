@@ -23,7 +23,7 @@ export default class Main extends Component{
         
         this.setState({ products: docs, productInfo, page });
 
-        console.log(productInfo);
+        //console.log(productInfo);
     }
 
     prevPage = () =>{
